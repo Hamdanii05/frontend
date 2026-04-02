@@ -1,0 +1,27 @@
+.car-card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: none;
+}
+
+.car-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.car-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.car-price {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.detail-btn {
+  width: 100%;
+  border-radius: 25px;
+}

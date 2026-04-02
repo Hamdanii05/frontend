@@ -1,0 +1,79 @@
+.kartu{
+    border-radius: 10px ;
+    width: 300px;
+    height: 400px;
+    margin: 10px 10px 0 0;
+    border-color: rgb(238, 13, 13);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.kartu:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+.kartu-head {
+    height: 200px;
+}
+.kartu img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.4s ease;
+}
+.kartu img:hover{
+    transform: scale(1.1);
+}
+.kartu-body{
+    font-family: 'poppins', sans-serif;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    background: white;
+}
+.tombol  {
+    margin-top: 15px;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #46a5e5;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+.tombol:hover{
+    color: rgb(51, 48, 53);
+}
+.harga {
+    margin-top: 10px;
+    color: rgb(243, 5, 5);
+}
+.konten {
+    display:grid ;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 10px;
+
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.search input{
+
+    border: 0.5 solid;
+    height: 25px;
+    width: 250px;
+    margin-top: 100px;
+}
+.tmb {
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    background: white;
+}

@@ -1,0 +1,47 @@
+import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
+
+const Footer = () => {
+  return (
+<footer className='bg-info text-white py-4 mt-5'>
+    <Container>
+        <Row className='text-center text-md-start'>
+            <Col md={4}>
+                <h5>PeTIK Blog</h5>
+                <p>Pesantren Teknologi Informasi Dan Komunikasi (PeTIK) adalah
+                lembaga pendidikan berbasis IT yang membentuk generasi siap
+                menghadapi industri digital</p>
+            </Col>
+
+            <Col md={4}>
+                <h5 className='fw-bold'>Quick Links</h5>
+                <ul className='list-unstyle'>
+                    <li>
+                        <NavLink to={"/"} className='text-white text-decoration-none'>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/product"} className='text-white text-decoration-none'>posts
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/about"} className='text-white text-decoration-none'>About</NavLink>
+                    </li>
+                </ul>
+            </Col>
+
+            <Col md={4}>
+                <h5>Contact Us</h5>
+                <p>
+                    Jl. Mandor Basar No.54, Rangkapan Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16434
+                </p>
+                <p className='small'> Phone : (021) 77886691</p>
+                <p className='small'> Email : info@petik.or.id</p>
+            </Col>
+        </Row>
+    </Container>
+</footer>
+  )
+}
+
+export default Footer

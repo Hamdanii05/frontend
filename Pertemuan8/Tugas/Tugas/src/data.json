@@ -1,0 +1,52 @@
+[
+    {
+        "nama_mobil" : "BMW",
+        "harga_sewa" : "$ 1.200/ Jam",
+        "gambar" : "../public/image/bmw5.jpg"
+    },
+      {
+        "nama_mobil" : "Lamborghini",
+        "harga_sewa" : "$ 2.590/ Jam",
+        "gambar" : "../public/image/lambo2.jpg"
+    },
+      {
+        "nama_mobil" : "Porsche",
+        "harga_sewa" : "$ 1.300/ Jam",
+        "gambar" : "../public/image/lambo3.jpg"
+    },
+      {
+        "nama_mobil" : "Rolls Royce",
+        "harga_sewa" : "$ 2.000/ Jam",
+        "gambar" : "../public/image/rolls royce.jpg"
+    },
+      {
+        "nama_mobil" : "Audi",
+        "harga_sewa" : "$ 1.890/ Jam",
+        "gambar" : "../public/image/audi.jpg"
+    },
+      {
+        "nama_mobil" : "Supra",
+        "harga_sewa" : "$ 1.900/ Jam",
+        "gambar" : "../public/image/supra.jpg"
+    },
+      {
+        "nama_mobil" : "GTR",
+        "harga_sewa" : "$ 1.900/ Jam",
+        "gambar" : "../public/image/GTR.jpg"
+    },
+      {
+        "nama_mobil" : "Ferrari",
+        "harga_sewa" : "$ 3.000/ Jam",
+        "gambar" : "../public/image/Ferrari.jpg"
+    },
+      {
+        "nama_mobil" : "G class",
+        "harga_sewa" : "$ 2.000/ Jam",
+        "gambar" : "../public/image/G class.jpg"
+    },
+      {
+        "nama_mobil" : "Mercedes",
+        "harga_sewa" : "$ 1.600/ Jam",
+        "gambar" : "../public/image/mercedes.jpg"
+    }
+]

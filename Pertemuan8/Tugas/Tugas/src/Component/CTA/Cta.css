@@ -1,0 +1,46 @@
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 80px 60px;
+ 
+}
+
+.cta-content {
+  max-width: 450px;
+  margin-left: 300px;
+
+}
+
+.cta-content h2 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.cta-content p {
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.cta-content button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 999px;
+  background: #46b3e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cta-content button:hover {
+  transform: scale(1.05);
+}
+
+.cta-image img {
+  width: 45rem;
+  height: auto;
+  
+}

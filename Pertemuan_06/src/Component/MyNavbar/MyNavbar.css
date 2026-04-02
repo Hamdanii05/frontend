@@ -1,0 +1,9 @@
+.me-auto Navlink  {
+    text-decoration: none;
+    color: brown;
+
+}
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
