@@ -1,0 +1,78 @@
+.kartu-head1{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+
+}
+.kartu-body1{
+    padding: 8px;
+    margin-bottom: 50px;
+    
+}
+.kartu-body1 ul li{
+    list-style: none;
+}
+.kartu-body2 ul li{
+    list-style: none;
+}
+.kartu-body3 ul li{
+    list-style: none;
+}
+.kartu-body2{
+    padding: 8px;
+    margin-bottom: 50px;
+}
+.kartu-body3{
+    padding: 8px;
+    margin-bottom: 50px;
+}
+.kartu1 {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    box-shadow: 0px 4px 6px rgba(3, 3, 3, 0.1);
+
+}
+.kartu-head2{
+    padding: 10px;
+    background-color: rgb(51, 92, 153);
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+
+}
+.kartu2 {
+    border-radius: 10px;
+    border: 1px solid;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    border-color:rgb(51, 92, 153) ;
+}
+.kartu-head3{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+}
+.kartu3 {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+.Foot {
+    text-align: center;
+}
+.Foot button {
+    border-radius: 50px;
+    color: rgb(230, 228, 235);
+    background-color: rgb(146, 184, 241);
+    width: 150px;
+}
